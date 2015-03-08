@@ -17,3 +17,10 @@ class Child(Parent):
 
 newKid = Child()
 newKid.print_last_name()
+
+#multiple Inheritance
+class BigPerson(Parent, Child):
+	pass
+
+big_guy = BigPerson()
+big_guy.print_last_name()
